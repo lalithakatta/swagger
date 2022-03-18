@@ -27,6 +27,7 @@
                         </goals>
                         <configuration>
                             <inputSpec>${project.basedir}/src/main/resources/petstore.json</inputSpec>
+                            <output>target/generated-sources</output>
                             <language>java</language>
                             <library>resttemplate</library>
                             <apiPackage>io.codejournal.maven.swagger2java.api</apiPackage>
